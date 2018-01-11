@@ -1,17 +1,14 @@
-import threading
+import multiprocessing
 import time
 
 
 
-def getFact(num):
-    print "calculating factorial of ", num, " = ",
-    fact = 1
-    while num > 0:
-        fact = fact * num
-        num = num - 1
-    print fact
+def printNaturalNumbers(num):
+    print "Natural Numbers"
+    for i in range(num):
+        print i + 1
 
-def isEven(num):
+def printSquares(num):
     print "Checking even no"
     if num % 2 == 0:
         print "num is even number"

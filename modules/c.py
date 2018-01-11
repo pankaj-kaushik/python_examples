@@ -1,4 +1,5 @@
 from a import *
-from b import *
+name = "module c"
 
 show()
+print name

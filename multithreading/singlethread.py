@@ -17,11 +17,9 @@ def isEven(num):
         print "num is odd number"
 
 
-start_time = time.time()
+start_time = time.clock()
 
 getFact(4)
 isEven(4)
 
-print "Program Ends, Total Time Taken : ", time.time() - start_time
-
-    	
+print "Program Ends, Total Time Taken : ", time.clock() - start_time
