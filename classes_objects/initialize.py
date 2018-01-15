@@ -6,6 +6,7 @@ class Hello:
     
 obj = Hello()
 print Hello.x  #class variable
-print obj.show()    #instance variable
+print obj.x
+obj.show()    #instance variable
 print Hello.show is obj.show
 Hello.show(obj)
