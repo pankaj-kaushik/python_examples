@@ -5,6 +5,7 @@ my_items = ['shampoo', 'oil', 'cream']
 
 itr = iter(my_items)
 
+print itr
 print next(itr)
 print next(itr)
 print next(itr)

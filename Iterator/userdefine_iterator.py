@@ -6,7 +6,7 @@ class items:
     def __iter__(self):
         return self
     
-    def next(self): #in python 3, this method has changed to __name__
+    def next(self): #in python 3, this method has changed to __next__
         self.index += 1
         if self.index == len(self.mylist):
             raise StopIteration
@@ -15,8 +15,17 @@ class items:
     
 
 r = items()
+
+
+
 itr = iter(r)
+
+print r, itr
 
 print next(itr)
 print next(itr)
 print next(itr)
+
+#for i in items():
+for i in r:
+    print i

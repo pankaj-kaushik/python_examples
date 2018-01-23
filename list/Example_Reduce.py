@@ -1,5 +1,5 @@
-def sum(seq):
+def mysum(seq):
     def add(x, y): return x + y
     return reduce(add, seq, 3)
 
-print sum(range(1,5))
+print mysum(range(1,5))
