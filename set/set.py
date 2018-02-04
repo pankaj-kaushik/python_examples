@@ -18,4 +18,5 @@ print type(items)
 
 fs = frozenset([1,2,3,4,5,2,3,4])
 
-fs.add(10) # it will generate exception
+print fs
+#fs.add(10) # it will generate exception

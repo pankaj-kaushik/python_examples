@@ -27,5 +27,5 @@ print next(itr)
 print next(itr)
 
 #for i in items():
-for i in r:
+for i in itr:
     print i
